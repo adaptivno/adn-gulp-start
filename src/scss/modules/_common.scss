@@ -1,0 +1,36 @@
+.wrapper {
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    @media (min-width: 567px) {
+        max-width: 540px;
+    }
+
+    @media (min-width: 768px) {
+        max-width: 750px;
+    }
+
+    @media (min-width: 992px) {
+        max-width: 990px;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1170px;
+    }
+
+    @media (min-width: 1400px) {
+        max-width: 1320px;
+    }
+
+    @media (max-width: 375px) {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

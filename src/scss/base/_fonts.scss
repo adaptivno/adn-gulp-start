@@ -1,0 +1,30 @@
+/**
+* Шрифты
+*/
+
+// Редактируем только название файла, жирность и стиль шрифта.
+// В зависимости от количества файлов шрифтов, подлючаем количество @include font-face(...)
+//
+// ====================
+// Пример:
+//
+// @include font-face($font-name, file-name, font-weight, font-style);
+//
+// Где:
+//
+// $font-name - название семейства шрифта. Берется из основной переменной. Здесь не редактируем.
+// font-weight - жирность шрифта
+// font-style - стиль шрифта
+
+@include font-face($font-name, Roboto-Black, 900, normal, woff2 woff);
+@include font-face($font-name, Roboto-BlackItalic, 900, italic, woff2 woff);
+@include font-face($font-name, Roboto-Bold, 700, normal, woff2 woff);
+@include font-face($font-name, Roboto-BoldItalic, 700, italic, woff2 woff);
+@include font-face($font-name, Roboto-Medium, 500, normal, woff2 woff);
+@include font-face($font-name, Roboto-MediumItalic, 500, italic, woff2 woff);
+@include font-face($font-name, Roboto-Regular, 400, normal, woff2 woff);
+@include font-face($font-name, Roboto-Italic, 400, italic, woff2 woff);
+@include font-face($font-name, Roboto-Light, 300, normal, woff2 woff);
+@include font-face($font-name, Roboto-LightItalic, 300, italic, woff2 woff);
+@include font-face($font-name, Roboto-Thin, 100, normal, woff2 woff);
+@include font-face($font-name, Roboto-ThinItalic, 100, italic, woff2 woff);
